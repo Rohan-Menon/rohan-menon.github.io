@@ -1,0 +1,83 @@
+
+#fullName{
+    background-color: #4aaaa5;
+    margin: 0px;
+    padding: 25px;
+    font-size: 40px;
+    color: #ffffff;
+    float:left;
+}
+#navBar{
+    
+    position: absolute;
+    right: 0%;
+    top:40px;
+
+}
+#mainHeader, #connectHeader{
+    color: #4aaaa5;
+    padding: 12px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+
+ #socialLinks{
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+} 
+#mainHeader{
+    font-size: 35px;
+}
+#connectHeader{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+#connectSection{
+    float:right;
+    width: 270px;
+}
+#mainSection {
+    width: 650px;
+    padding: 10px;
+    margin-top:20px;
+}
+#selfImage{
+    width: 150px;
+    float:left;
+
+}
+#bio{
+    color: #777777;
+    font-size: 20px;
+}
+#aboutLink{
+    border-right: solid 1px #dddddd;
+    padding-right: 5px;
+}
+#portfolioLink{
+    border-right: solid 1px #dddddd;
+    padding-right: 5px;
+
+}
+.contentArea{
+    width: 960px;
+    margin-left: 50%;
+    transform:translate(-50%);
+}
+.allSections{
+    background-color: #ffffff;
+    overflow: hidden;
+    border: 1px solid #dddddd;
+}
+.navLinks{
+    color: #777777;
+    text-decoration: none;
+
+}
+.socialImages{
+    width: 60px;
+}
+
+

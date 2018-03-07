@@ -14,8 +14,6 @@ function testFunction() {
     url += '?' + $.param({
         'api-key': "4eff477c6d9d41318aa5b82e07d830c4",
         'q': searchTerm,
-        'begin_date': yearStart,
-        'end_date': yearEnd,
         'page': 1
     });
 

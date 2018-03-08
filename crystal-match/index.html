@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+</head>
+
+<body background="./assets/images/crytsal-background.png">
+    <div class="container">
+        <header class="row">
+            <h1 class="text-center">Crystal Match</h1>
+        </header>
+        <div class="row">
+            <div id="winNumberDiv" class="col-xs-3">
+                    <h2 class="text-center">Match This Number</h2>
+                    <p class="text-center" id="winNumberDisplay"></p>
+            </div>
+            
+        </div>
+
+        <div class="row">
+            <div id="crystalDiv" class="col-xs-3">
+                <img src="./assets/images/red.png" class="crystals" data-name="1">
+                <img src="./assets/images/yellow.png" class="crystals" data-name="2">
+                <img src="./assets/images/purple.png" class="crystals" data-name="3">
+                <img src="./assets/images/green.png" class="crystals" data-name="4">
+            </div>
+            <div id="win-loss-div" class="col-xs-2">
+                <p id="wins">Wins: 0</p>
+                <p id="losses">Losses: 0</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="row" >
+            <div id="scoreDisplay" class="col-xs-3 text-center">0</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
